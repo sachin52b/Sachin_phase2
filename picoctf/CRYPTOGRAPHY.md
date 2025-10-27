@@ -59,6 +59,7 @@ Using -iter or -pbkdf2 would be better.
 picoCTF{su((3ss_(r@ck1ng_r3@_881d93b6}
 
 ```
+PYTHON USED FOR CALCULATIONS AND CONVERSIONS:
 ![PYTHON USED FOR CALCULATIONS AND CONVERSIONS](./images/Screenshot2.png)
 
 ## Flag:
@@ -320,5 +321,6 @@ picoCTF{n33d_a_lArg3r_e_606ce004}
 Incorrect tangent was to not able to understand that cuberoot of a very big number cannot be directly calculated and some other method has to been taken into consideration. Also it took some time for me to understand how to compare like I was trying to directly compare 'pico' with my mathematical result but this before realizing that hex version of pico must be compared to hex value of result.
 
 ## Resources:
+
 
 https://en.wikipedia.org/wiki/RSA_cryptosystem
