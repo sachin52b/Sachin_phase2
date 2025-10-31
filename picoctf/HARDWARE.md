@@ -60,7 +60,7 @@ So I started off by downloading the folder. When I opened it, I found a .sal fil
 After seeing the waveform, it was quite evident that the .sal capture had only one active line that stayed high and dipped low — indicating it was an Async Serial signal(UART). So, I clicked on Add Analyzer, selected Async Serial, chose Channel 3 (which displayed the waveform), and then hit Save:
 ![screenshot](./images/Screenshot15.png)
 It displayed a data table, so I switched to the Terminal view from the data table, and it showed the text that was extracted after analyzing the signal:
-![screenshot](./images/Screenshot15.png)
+![screenshot](./images/Screenshot16.png)
 I scrolled through the text and got my flag somewhere in the middle.
 
 ## Flag:
@@ -204,5 +204,6 @@ gdb firmware.elf
 and then inside gdb using commands like info functions, disassemble main which are generally meant for Reverse engineering to just find a lot of non readable garbage.
 
 ## Resources:
+
 
 https://youtu.be/UQQsYXa1EHs
